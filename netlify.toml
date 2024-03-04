@@ -1,0 +1,8 @@
+[build]
+    command = "sed -i \"s|TEST_PLACEHOLDER|${TEST_VAR}|g\" netlify.toml && yarn build"
+
+[[redirects]]
+from = "/TEST_VAR/*"
+to = "https://www.google.com/:splat"
+status = 200
+force = true
