@@ -18,12 +18,10 @@
   "devDependencies": {
     "prettier": "^2.8.8"
   },
-  "keywords": [
-    "gatsby"
-  ],
+  "keywords": ["gatsby"],
   "license": "0BSD",
   "scripts": {
-    "build": "gatsby build",
+    "build": "node print-env.js && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",

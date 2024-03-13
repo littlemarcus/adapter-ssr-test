@@ -1,8 +1,6 @@
-[build]
-    command = "sed -i \"s|TEST_PLACEHOLDER|${TEST_VAR}|g\" netlify.toml && yarn build"
+[context.production]
+    environment = {NODE_VERSION = "20.11.1"}
 
 [[redirects]]
-from = "/TEST_PLACEHOLDER/*"
-to = "https://www.google.com/:splat"
-status = 200
-force = true
+    from = "/test"
+    to = "using-ssr"
