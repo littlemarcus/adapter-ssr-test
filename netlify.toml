@@ -2,5 +2,7 @@
     environment = {NODE_VERSION = "20.11.1"}
 
 [[redirects]]
-    from = "/test"
-    to = "using-ssr"
+    from = "/test/*"
+    to = "/:splat"
+    status = 200
+    force = true        
