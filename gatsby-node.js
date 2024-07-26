@@ -17,7 +17,7 @@ exports.createPages = async ({ actions }) => {
   }),
   createRedirect({
     fromPath: `/docs-qa/kubernetes-operator/v1.22/*`,
-    toPath: `https://v1-22.marcusfromtroy.com/*`,
+    toPath: `https://v1-22--deluxe-fox-cbcbf1.netlify.app/*`,
     statusCode: 200,
   })
 }
