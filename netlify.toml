@@ -1,5 +1,0 @@
-[build]
-    [[redirects]]
-    from = "https://www.marcusfromtroy.com/docs-qa/kubernetes-operator/v1.22/*"
-    to = "https://v1-22.marcusfromtroy.com/:splat"
-    status = 200
