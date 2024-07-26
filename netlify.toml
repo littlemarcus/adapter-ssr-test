@@ -1,4 +1,4 @@
-[[build]]
+[build]
     [[redirects]]
     from = "/docs-qa/kubernetes-operator/v1.22/*"
     to = "https://v1-22.marcusfromtroy.com/:splat"
