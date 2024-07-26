@@ -1,2 +1,5 @@
-[context.production]
-    environment = {NODE_VERSION = "20.11.1"}
+[[build]]
+    [[redirects]]
+    from = "/docs-qa/kubernetes-operator/v1.22/*"
+    to = "https://v1-22.marcusfromtroy.com/:splat"
+    status = 200
