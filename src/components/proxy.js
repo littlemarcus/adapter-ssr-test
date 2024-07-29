@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 
-const ProxyWrapper = ({ children }) => {
+const Proxy = ({ children }) => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       const path = window.location.pathname
@@ -20,4 +20,4 @@ const ProxyWrapper = ({ children }) => {
   return <>{children}</>
 }
 
-export default ProxyWrapper
+export default Proxy
