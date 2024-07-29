@@ -1,0 +1,5 @@
+[build]
+    [[redirects]]
+    from = "/docs-qa/kubernetes-operator/v1.22/*"
+    to = "https://containerror.net/:splat"
+    status = 200
