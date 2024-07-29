@@ -3,3 +3,9 @@
     from = "/docs-qa/kubernetes-operator/v1.22/*"
     to = "https://www.google.com/:splat"
     status = 200
+    [[plugins]]
+    package = "@netlify/plugin-lighthouse"
+
+    # optional, deploy the lighthouse report to a path under your site
+    [plugins.inputs.audits]
+    output_path = "page-2"
