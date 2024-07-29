@@ -7,5 +7,5 @@
     package = "@netlify/plugin-lighthouse"
 
     # optional, deploy the lighthouse report to a path under your site
-        [plugins.inputs.audits]
+        [[plugins.inputs.audits]]
         path = "page-2"
