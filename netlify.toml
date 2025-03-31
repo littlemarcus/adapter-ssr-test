@@ -1,5 +1,5 @@
 [[redirects]]
-from = "https://www.marcusfromtroy.com/page-2/"
+from = "https://marcusfromtroy.com/page-2/"
 to = "https://marcusfromtroy.com/page-2/"
-status = 301
+status = 200
 force = true
