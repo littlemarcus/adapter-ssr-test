@@ -1,0 +1,5 @@
+[[redirects]]
+from = "https://marcusfromtroy.com/page-2/"
+to = "https://marcusfromtroy.com/page-2/"
+status = 200
+force = true
